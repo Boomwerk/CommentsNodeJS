@@ -10,7 +10,7 @@
 
 ### write a command:
 
-    git clone
+    git clone https://github.com/Boomwerk/CommentsNodeJS.git
 
 #STEP 2
 =======
