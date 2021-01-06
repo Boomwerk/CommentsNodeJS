@@ -22,7 +22,7 @@
 #STEP 3
 =======
 
-### create your DATABASE and MODIFY in config/bdd.js
+### import DATABASE and MODIFY in config/bdd.js
 
 * your UserName
 * your Password
