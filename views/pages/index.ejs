@@ -1,0 +1,29 @@
+<%- include('header') -%>
+
+
+<form action="/" method="POST" class="ui form">
+    <div class="field">
+        <label for="message"> message</label>
+        <textarea name="message" id="message"></textarea>
+    </div>
+    <button type="submit" class="ui blue labeled submit icon button">
+        <i class="icon edit" ></i>
+        Envoyer 
+    </button>
+</form>
+
+<div class="ui comments">
+    <h3 class="ui dividing header">Commentaires</h3>
+
+    <% for (message of messages) {%>
+        <div class="comment">
+            <div class="content">
+                <div class="test">
+                    <%= message.content %>
+                </div>
+            </div>
+        </div>
+    <% } %> 
+</div>
+
+<%- include('footer') -%>
