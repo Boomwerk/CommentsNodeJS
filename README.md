@@ -15,7 +15,7 @@
 #STEP 2
 =======
 
-### go in folder of this project with terminal and write a command :
+### go in folder of this project with terminal and write this command :
 
     npm install
   
